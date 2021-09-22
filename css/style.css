@@ -301,11 +301,13 @@ textarea:focus {
   margin-right: 3rem;
   width: 300px;
 }
-.price-button {
-  width: 80%;
+.price-header-btn {
   text-align: right;
+  margin-top: 7rem;
+  margin-right: 6rem;
 }
 .price-block {
+  width: 315px;
   min-height: 47rem;
   padding: 1rem 2rem;
   background-color: #ffffff;
