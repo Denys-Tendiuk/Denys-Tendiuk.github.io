@@ -741,9 +741,6 @@ footer {
   .price {
     text-align: center;
   }
-  .price-header-btn {
-    margin-left: 3rem;
-  }
   .feedback {
     min-height: 127rem;
   }
@@ -816,13 +813,6 @@ footer {
     margin-bottom: -3rem;
     text-align: center;
   }
-  .price-block {
-    width: 200px;
-    min-height: 51rem;
-  }
-  .price-btn-block {
-    width: 100px;
-  }
 }
 @media (max-width: 1199px) {
   .feedbak-form-form {
@@ -847,6 +837,11 @@ footer {
   }
   .problems-women {
     display: none;
+  }
+}
+@media (amx-width: 767px) {
+  .scheme-header {
+    padding-top: 7rem;
   }
 }
 @media (max-width: 990px) {
