@@ -297,7 +297,7 @@ textarea:focus {
   background-color: #286b0a;
 }
 .price-btn {
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-right: 3rem;
   width: 300px;
 }
@@ -307,7 +307,6 @@ textarea:focus {
   margin-right: 6rem;
 }
 .price-block {
-  width: 315px;
   min-height: 47rem;
   padding: 1rem 2rem;
   background-color: #ffffff;
@@ -557,7 +556,6 @@ textarea:focus {
 }
 .materials {
   min-height: 600px;
-  background: #ffffff url(../img/materials/materials-bg.jpg);
   background-size: cover;
 }
 .materials img {
@@ -681,6 +679,54 @@ footer {
           animation-duration: 2s;
   /* don't forget to set a duration! */
 }
+@media (max-width: 500px) {
+  main {
+    text-align: center;
+  }
+  main-header {
+    font-size: 2rem;
+    text-align: left;
+  }
+  main-form {
+    padding-left: 6rem;
+  }
+  .price {
+    text-align: center;
+  }
+  .price-header-btn {
+    margin-left: 3rem;
+  }
+  .feedback {
+    min-height: 127rem;
+  }
+  .feedback-form {
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+  .feedback-btn {
+    width: 80%;
+  }
+  .scheme-header {
+    margin-top: 3rem;
+  }
+  .all-inclusive {
+    margin-top: 90rem;
+  }
+  .tour {
+    margin-top: -3rem;
+    margin-left: -3rem;
+    min-height: 3000px;
+  }
+  .tour-tour-form {
+    margin-bottom: -3rem;
+  }
+  .upsell {
+    margin-top: 15rem;
+  }
+  .upsell h2 {
+    font-size: 100%;
+  }
+}
 @media (max-width: 360px) {
   main {
     text-align: center;
@@ -733,6 +779,9 @@ footer {
   .tour-tour-form {
     margin-bottom: -2rem;
   }
+  .upsel {
+    padding-top: 3rem;
+  }
 }
 @media (max-width: 563px) {
   .scheme {
@@ -747,6 +796,32 @@ footer {
   }
   .problems-list_good {
     margin: 1rem auto;
+  }
+}
+@media (max-width: 991px) {
+  .problems {
+    padding-bottom: 8rem;
+  }
+  .problems-list {
+    margin-bottom: 3rem;
+  }
+  .materials {
+    padding-top: 3rem;
+    min-height: 790px;
+  }
+  .tour {
+    min-height: 650px;
+  }
+  .upsel {
+    margin-bottom: -3rem;
+    text-align: center;
+  }
+  .price-block {
+    width: 200px;
+    min-height: 51rem;
+  }
+  .price-btn-block {
+    width: 100px;
   }
 }
 @media (max-width: 1199px) {
@@ -767,7 +842,7 @@ footer {
     min-height: 11rem;
   }
   .problems-list {
-    min-height: 45rem;
+    min-height: 35rem;
     width: 25rem;
   }
   .problems-women {
