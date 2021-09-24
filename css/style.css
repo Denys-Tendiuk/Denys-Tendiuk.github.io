@@ -28,14 +28,6 @@ body {
 .__sb-test::-webkit-scrollbar {
   width: 0px;
 }
-.form-input {
-  display: inline-block;
-  margin: 2rem 0rem;
-  width: 100%;
-  border: 1px solid #dddddd;
-  border-radius: 5px;
-  padding: 1.5rem;
-}
 .form-label {
   position: absolute;
   left: 50%;
@@ -63,7 +55,6 @@ body {
 .main-content h1 {
   margin-bottom: 1rem;
   font-family: 'ProximaNova_bold', sans-serif;
-  font-size: 25px;
   text-transform: uppercase;
   line-height: 1.55;
 }
@@ -73,10 +64,6 @@ body {
   font-size: 1.2rem;
   margin-top: 15px;
   padding: 10px;
-}
-.main .main-header {
-  font-size: 2.5rem;
-  font-family: 'ProximaNova_bold', sans-serif;
 }
 .main span {
   display: inline-block;
@@ -107,6 +94,7 @@ body {
   padding: 0.5rem 1rem;
   background-color: #ffffff;
   text-align: center;
+  padding: 2rem;
 }
 .main-form-header {
   font-size: 0.5rem;
@@ -119,14 +107,13 @@ body {
   width: 90%;
   border: 1px solid #dddddd;
   padding: 1rem;
-  margin: 2rem;
+  margin: 1rem;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
 }
 .main-form label {
   position: absolute;
-  left: 51%;
   -webkit-transform: translateX(-40%) translateY(-40%);
           transform: translateX(-40%) translateY(-40%);
   font-size: 1rem;
@@ -146,15 +133,9 @@ body {
   text-align: center;
   width: 120%;
 }
-.main-form {
-  margin-left: 4rem;
-}
 .main-form-btn {
   height: 4rem;
   width: 80%;
-}
-.container {
-  height: 600px;
 }
 .btn {
   background-color: #fcb303;
@@ -302,9 +283,7 @@ textarea:focus {
   width: 300px;
 }
 .price-header-btn {
-  text-align: right;
   margin-top: 7rem;
-  margin-right: 6rem;
 }
 .price-block {
   min-height: 47rem;
@@ -411,8 +390,8 @@ textarea:focus {
   width: 50%;
 }
 .feedback-form {
-  padding: 3rem 4rem;
-  margin-top: 2rem;
+  padding: 1rem 1rem;
+  margin-top: 4.5rem;
   background-color: #ffffff;
   text-align: center;
 }
@@ -576,7 +555,6 @@ textarea:focus {
 }
 .tour-form {
   margin-top: 6rem;
-  margin-left: 3rem;
 }
 .tour-subtitle {
   font-size: 1.5rem;
@@ -641,7 +619,7 @@ textarea:focus {
   width: 90%;
   border: 1px solid #dddddd;
   padding: 1rem;
-  margin: 2rem;
+  margin: 1rem;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 5px;
@@ -667,7 +645,7 @@ footer {
 }
 .footer-dev-logo {
   text-align: right;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 .my-element {
   display: inline-block;
@@ -683,8 +661,8 @@ footer {
   main {
     text-align: center;
   }
-  main-header {
-    font-size: 2rem;
+  main h1 {
+    font-size: 1rem;
     text-align: left;
   }
   main-form {
@@ -693,11 +671,8 @@ footer {
   .price {
     text-align: center;
   }
-  .price-header-btn {
-    margin-left: 3rem;
-  }
   .feedback {
-    min-height: 127rem;
+    min-height: 112rem;
   }
   .feedback-form {
     text-align: center;
@@ -728,15 +703,12 @@ footer {
   }
 }
 @media (max-width: 360px) {
-  main {
-    text-align: center;
+  .main h1 {
+    font-size: 1rem;
   }
-  main-header {
+  .main-header {
     font-size: 2rem;
     text-align: left;
-  }
-  main-form {
-    padding-left: 6rem;
   }
   .price {
     text-align: center;
@@ -745,8 +717,9 @@ footer {
     min-height: 127rem;
   }
   .feedback-form {
-    text-align: center;
+    text-align: left;
     margin-bottom: 10rem;
+    margin-right: -5rem;
   }
   .feedback-btn {
     width: 80%;
@@ -772,7 +745,16 @@ footer {
     font-size: 100%;
   }
 }
+@media (max-width: 413px) {
+  .main h1 {
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 500px) {
+  .main h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
   .tour-tour-form {
     margin-bottom: -2rem;
   }
@@ -783,7 +765,6 @@ footer {
 @media (max-width: 563px) {
   .scheme {
     background: none;
-    min-height: 3000px;
   }
   .scheme-block {
     height: 50px;
@@ -796,11 +777,11 @@ footer {
   }
 }
 @media (max-width: 991px) {
+  .main h1 {
+    font-size: 2rem;
+  }
   .problems {
     padding-bottom: 8rem;
-  }
-  .problems-list {
-    margin-bottom: 3rem;
   }
   .materials {
     padding-top: 3rem;
@@ -815,6 +796,9 @@ footer {
   }
 }
 @media (max-width: 1199px) {
+  main {
+    min-height: 700px;
+  }
   .feedbak-form-form {
     padding: 3rem 5rem;
   }
@@ -824,16 +808,8 @@ footer {
   .hand {
     display: none;
   }
-  .scheme {
-    min-height: 5rem;
-    size: 25%;
-  }
   .all-inclusive .media {
     min-height: 11rem;
-  }
-  .problems-list {
-    min-height: 35rem;
-    width: 25rem;
   }
   .problems-women {
     display: none;
@@ -867,23 +843,18 @@ footer {
   }
   .price-header-btn {
     margin-top: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
   }
   .section-header_light {
     margin-bottom: 0;
   }
   .scheme {
     background: none;
-    min-height: auto;
-    margin-top: 15rem;
   }
   .scheme-section-header {
     margin-top: 4rem;
   }
   .scheme-block {
-    margin-top: 20rem;
-    margin-left: 3rem;
+    margin: 5rem;
   }
   .upsell {
     min-height: 1500px;
@@ -931,10 +902,7 @@ footer {
   }
   .scheme {
     text-align: center;
-    min-height: 1400px;
-  }
-  .scheme-block {
-    min-height: 10rem;
+    min-height: 1100px;
   }
   .all-inclusive {
     margin-top: 90rem;
