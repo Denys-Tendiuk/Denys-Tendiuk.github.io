@@ -63,7 +63,6 @@ body {
   font-family: 'ProximaNova_reg';
   font-size: 1.2rem;
   margin-top: 15px;
-  padding: 10px;
 }
 .main span {
   display: inline-block;
@@ -344,9 +343,6 @@ textarea:focus {
 .feedback-prev-btn {
   left: -3rem;
 }
-.feedback .feedback-btn {
-  width: 300px;
-}
 .feedback-text {
   padding: 1rem;
   margin-top: 1rem;
@@ -544,7 +540,7 @@ textarea:focus {
   margin-top: 6rem;
 }
 .tour-form {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .tour-subtitle {
   font-size: 1.5rem;
@@ -714,8 +710,11 @@ footer {
     margin-top: -3rem;
     margin-left: -3rem;
   }
+  .tour-main-title {
+    margin-left: 2rem;
+  }
   .tour-tour-form {
-    margin-bottom: -3rem;
+    margin-left: 1rem;
   }
   .upsell {
     margin-top: 15rem;
@@ -748,7 +747,7 @@ footer {
 }
 @media (max-width: 991px) {
   .main h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .materials {
     padding-top: 3rem;
